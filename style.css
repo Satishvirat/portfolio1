@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-family: "poppins",sans-serif;
+}
+
+.home
+{
+    margin:20px;
+    height:fit-content;
+
+}
+
+
+.logo 
+{
+    font-size: x-large;
+    margin-top: 25px;
+    
+    
+   
+}
+
+.logo span{
+    color: red;
+    font-size:80px;
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+
+.menu{
+    margin-top: 50px;
+}
+
+
+.menu ul li{
+    display: inline;
+    padding-left: 30px;
+}
+
+.menu ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: larger;
+}
+.cmain{
+    display: flex;
+}
+
+
+.con{
+    margin-left: 180px;
+    margin-top: 250px;
+    ;
+}
+
+.con p {
+    font-size: 30px;
+
+}
+
+.con h3 {
+font-size:40px;
+}
+
+.pic img{
+    width: 500px;
+    height: 600px;
+    filter: grayscale(50%);
+}
+.about{
+    
+    margin: 20px;
+    height:fit-content;
+    
+
+}
+.con2{
+   display: flex;
+   justify-content:space-around;
+   
+
+}
+.me{
+   
+    display: inline;
+    width: 700px;
+    
+}
+.me span{
+    color: red;
+}
+
+.pic2 img{
+    width: 350px;
+    height: 350px;
+    border-radius:50%;
+    filter: contrast(150%);
+    
+}
+
+.ta p{
+    font-size:medium;
+    font-weight: lighter;
+    
+}
+
+
+
+.career-content {
+    display: none;
+    position: absolute;
+    background: linear-gradient(to top left, #000000 -10%, #cc0000 50%);
+    min-width: 160px;
+    box-shadow: -1px -6px 6px -5px rgba(241,229,229,0.75);
+-webkit-box-shadow: -1px -6px 6px -5px rgba(241,229,229,0.75);
+-moz-box-shadow: -1px -6px 6px -5px rgba(241,229,229,0.75);
+    border-radius: 20px;
+    padding: 12px 16px;
+    z-index: 1;
+    font-size:small;
+    margin-top: 20px;
+
+    
+  }
+  
+  .career:hover .career-content {
+    display: block;
+  }
+
+
+  .publicimage-content {
+    display: none;
+    position: absolute;
+    background: linear-gradient(to top left, #000000 -10%, #cc0000 50%);
+    min-width: 160px;
+    box-shadow: -1px -6px 6px -5px rgba(241,229,229,0.75);
+-webkit-box-shadow: -1px -6px 6px -5px rgba(241,229,229,0.75);
+-moz-box-shadow: -1px -6px 6px -5px rgba(241,229,229,0.75);
+    border-radius: 20px;
+    padding: 12px 16px;
+    z-index: 1;
+    font-size:small;
+    margin-top: 20px;
+
+
+  }
+  
+  .publicimage:hover .publicimage-content {
+    display: block;
+  }
+
+
+
+  .awards-content {
+    display: none;
+    position: absolute;
+    background: linear-gradient(to top left, #000000 -10%, #cc0000 50%);
+    min-width: 160px;
+    box-shadow: -1px -6px 6px -5px rgba(241,229,229,0.75);
+-webkit-box-shadow: -1px -6px 6px -5px rgba(241,229,229,0.75);
+-moz-box-shadow: -1px -6px 6px -5px rgba(241,229,229,0.75);
+    border-radius: 20px;
+    padding: 12px 16px;
+    z-index: 1;
+    font-size:small;
+    margin-top: 20px;
+
+   
+  }
+  
+  .awards:hover .awards-content {
+    display: block;
+  }
+
+  .tabs {
+    display: flex;
+    justify-content:space-evenly;
+    
+  }
+.career-content ul li span{
+    color: black;
+}
+.publicimage-content ul li span{
+    color: black;
+}
+.awards-content ul li span{
+    color: black;
+}
+
+.works{
+    margin: 20px;
+    height: fit-content;
+
+    
+}
+.works{
+    margin-top: 200px;
+}
+
+.works span{
+    color: red;
+}
+
+.cards{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 100px;
+}
+
+
+
+.cards img{
+    width: 300px;
+    height: 300px;
+    border-radius:30%;
+    filter: contrast(120%);
+   
+}
+
+.contact{
+    margin: 20px;
+}
+
+.contact{
+    margin-top: 100px;
+    height:fit-content;
+
+}
+.contact span{
+    color: red;
+    font-size: 35px;
+}
+
+.us{
+    margin-top: 100px;
+    font-size:x-large;
+    display: flex;
+    justify-content: space-around;
+}
+
+.liic span{
+    color: red;
+    font-size: 35px;
+}
+
+
+
+.liic{
+    margin-top: 100px;
+    display: flex;
+    font-size: 35px;
+    
+}
+
+.form input{
+    width: 100%;
+    background: #262626;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    color:whitesmoke;
+    font-size: 18px;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+.form textarea{
+    width: 500px;
+    background: #262626;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+.cright{
+    margin-top: 30px;
+    background-color:black;
+
+}
+.b1{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-bottom: 60px;
+    border-radius: 30px;
+}
+.b1 {
+    background-color:#262626; 
+    color:whitesmoke; 
+    border: 2px red;
+  }
+  
+  .b1:hover {
+    background-color:red;
+    color: white;
+  }
+  
+
+/* -------------------media---------------------------------- */
+
+@media screen and (max-width: 600px){
+
+    
+    
+   .menu{
+    display:none;
+   }
+
+   .logo{
+    font-size:medium;
+   }
+.con{
+    float: left;
+    margin-top:60px;
+    height: fit-content;
+    margin-left: -5px;
+
+}
+  
+   .con h3{
+    font-size:larger;
+    
+   }
+
+   .con p{
+    font-size:medium;
+
+    
+   }
+   .cmain{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    
+}
+
+
+
+
+   .pic img{
+    width:180px;
+    height:200px;
+    position: relative;
+    z-index: -1;
+    margin-left: -15px;
+
+    
+   }
+
+   .pic2 img{
+    width:180px;
+    height:180px;
+
+    
+   }
+
+  /* -------------mediaaboutme-----------  */
+
+  .con2{
+    flex-direction: column;
+    margin-top: 150px;
+  }
+
+  .me{
+    width: 100%;
+    margin-top:100px;
+  }
+
+ 
+
+  .cards{
+    flex-direction: column;
+   
+    
+  }
+  .card1{
+    padding-bottom: 50px;
+
+  }
+
+  .card2{
+    padding-bottom: 50px;
+
+  }
+
+  .contact{
+    height: fit-content;
+    margin-top:200px;
+  }
+
+
+
+  .us{
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: fit-content;
+    
+  }
+
+  .tabs{
+    flex-direction: column;
+  }
+
+  .awards-content {
+    margin-left: 150px;
+    position:sticky;
+  }
+ 
+  .career-content {
+    margin-left: 150px;
+    position:sticky;
+    
+
+    
+}
+.publicimage-content {
+    margin-left: 150px;
+    position:sticky;
+
+
+    
+}
+
+.ta{
+    padding-top: 50px;
+}
+
+.two{
+    padding-bottom: 150px;
+}
+
+.form input{
+    width:300px;
+    background: #262626;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    color:whitesmoke;
+    font-size:medium;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+.form textarea{
+    width: 300px;
+    background: #262626;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-size:18px;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+.cright{
+    
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cards img{
+    width: 180px;
+    height: 180px;
+    border-radius:30%;
+    filter: contrast(120%);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+  
+  
+
+
